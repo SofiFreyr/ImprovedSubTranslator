@@ -26,13 +26,16 @@
     "js": ["src/contentScript.ts"]
   }],
   "web_accessible_resources": [
-    "src/index.ts",
-    "src/index.css"
+    "src/translationPopup/index.ts",
+    "src/translationPopup/index.css"
   ],
   "permissions": [
     "https://www.netflix.com/*",
-    "https://kino.pub/*",
     "https://www.youtube.com/*",
+    "https://www.amazon.com/*",
+    "https://www.amazon.de/*",
+    "https://www.disneyplus.com/*",
+    "https://www.max.com/*",
     "declarativeContent",
     "storage"
   ]

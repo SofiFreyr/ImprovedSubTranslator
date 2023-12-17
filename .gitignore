@@ -1,6 +1,8 @@
 .cache
+.vscode
 build
 dist
 node_modules
 dist.crx
 dist.pem
+package-lock.json

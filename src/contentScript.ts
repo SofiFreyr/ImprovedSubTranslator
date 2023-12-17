@@ -1,5 +1,5 @@
 import { getPrefs } from './preferencePopup/prefs';
-import { injectCss, injectJs } from './utils';
+import { injectCss, injectJs } from './utils/utils';
 
 
 function sendCurrentPrefsToInjectedScripts(): void {

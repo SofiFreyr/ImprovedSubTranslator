@@ -1,8 +1,8 @@
 import {
   getPopupHTML, subLoadingClassName, subPopupClassName, subPopupWrapperClassName
 } from './markup';
-import { popupCss, spinnerCss } from './styles';
-import { disableScroll, enableScroll, positionElement } from './utils';
+import { popupCss, spinnerCss } from '../utils/styles';
+import { disableScroll, enableScroll, positionElement } from '../utils/utils';
 
 export function insertTranslationPopup(
   targetEl: HTMLElement,

@@ -7,7 +7,7 @@ interface TokenizeResult {
  * Split sentence into words and delimiters
  * */
 export const tokenize = (text: string): TokenizeResult => {
-  const word = /[a-z0-9'-]+/gi;
+  const word = /[A-Za-zÀ-ž0370-03FF0400-04FF0-9'-]+/gi;
   const tokens = [];
   const delimiters = [];
   let item;

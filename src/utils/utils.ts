@@ -1,4 +1,4 @@
-import { popupHeight, popupOffset, popupWidth } from './markup';
+import { popupHeight, popupOffset, popupWidth } from '../translationPopup/markup';
 
 export function isVisible(el?: HTMLElement | null) {
   if (!el) return false;

@@ -1,8 +1,8 @@
-import { wrapSentenceWords, updateWordsToHide } from './textProcessing/wrapSentenceWords';
-import addMouseEnterLeaveEventListeners from './addMouseEnterLeaveEventListeners';
+import { wrapSentenceWords, updateWordsToHide } from '../textProcessing/wrapSentenceWords';
+import addMouseEnterLeaveEventListeners from '../utils/addMouseEnterLeaveEventListeners';
 import { translate, cancelTranslate } from './translate';
 import { insertTranslationPopup, insertTranslationResult, hideTranslationPopup } from './translationPopup';
-import { defaultPrefs, Prefs } from './preferencePopup/prefs';
+import { defaultPrefs, Prefs } from '../preferencePopup/prefs';
 import {
   subWordClassName,
   subContainerClassName,
@@ -12,8 +12,8 @@ import {
   getSubtitlesHiddenWordHTML, subPopupWrapperClassName,
 } from './markup';
 import startTextMutationObserver from './startTextMutationObserver';
-import { getSiteSpecificApi } from './siteApi';
-import { logPrefix } from './utils';
+import { getSiteSpecificApi } from '../utils/siteApi';
+import { logPrefix } from '../utils/utils';
 
 
 const siteApi = getSiteSpecificApi();

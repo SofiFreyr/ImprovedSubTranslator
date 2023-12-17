@@ -1,4 +1,4 @@
-import { logPrefix } from '../utils';
+import { logPrefix } from '../utils/utils';
 
 export const defaultPrefs: Prefs = {
   sourceLang: 'en',
